@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifest Aurory</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black; /* Jednolite tło, jeśli obraz nie pokrywa całej strony */
+            font-family: Arial, sans-serif;
+        }
+        img {
+            width: 100vw;  /* Szerokość obrazu na cały ekran */
+            height: auto;  /* Zachowanie proporcji */
+            max-height: 100vh; /* Unikanie przewijania w pionie */
+            object-fit: contain; /* Dopasowanie obrazu bez przycinania */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body>
+    <img src="manifest_final_adjusted.png" alt="Manifest Aurory">
+</body>
+</html>
